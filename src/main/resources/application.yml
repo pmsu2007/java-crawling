@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:./crawling
+    username: sa
+    password:
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show-sql: true
+        format_sql: true
