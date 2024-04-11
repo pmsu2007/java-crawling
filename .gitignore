@@ -41,5 +41,5 @@ out/
 .AppleDouble
 .LSOverride
 
-./chromedriver
-./crawling.mv.db
+chromedriver
+crawling.mv.db
